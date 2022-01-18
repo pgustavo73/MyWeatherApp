@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">WeatherApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="add_city">Add your city</string>
+    <string name="weather_success_refresh">Weather updated!</string>
+    <string name="weather_failed_refresh">Weather update failed!</string>
+    <string name="read_weather_fail">Could not load weather!</string>
+    <string name="searching">Search city ...</string>
+    <string name="search">Search</string>
+    <string name="search_city">weather forecast</string>
+    <string name="cancel">CLOSE</string>
+    <string name="add">ADD</string>
+    <string name="init_error_message">Could not load weather! Please check your internet connection and try again
+    </string>
+    <string name="pressure">Pressure</string>
+    <string name="humidity">Humidity</string>
+    <string name="wind">Wind</string>
+    <string name="dialog_title_delete">Remove City</string>
+    <string name="removing">Removing city</string>
+    <string name="dialog_delete_msg">You realy want remove the city?</string>
+    <string name="label_no">No</string>
+    <string name="label_yes">Yes</string>
+</resources>

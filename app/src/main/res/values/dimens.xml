@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="elevation_small">4dp</dimen>
+    <dimen name="elevation_m">8dp</dimen>
+    <dimen name="elevation_l">16dp</dimen>
+    <dimen name="padding_small">4dp</dimen>
+    <dimen name="custom_card_view_height">130dp</dimen>
+    <dimen name="margin_medium">8dp</dimen>
+    <dimen name="corner_radius_s">10dp</dimen>
+    <dimen name="stroke_width_s">1dp</dimen>
+    <dimen name="text_default">16sp</dimen>
+    <dimen name="text_large">20sp</dimen>
+    <dimen name="text_headline">24sp</dimen>
+</resources>

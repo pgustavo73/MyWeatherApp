@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/navigation"
+        app:startDestination="@id/currentWeatherFragment">
+    <fragment
+            android:id="@+id/currentWeatherFragment"
+            android:name="com.pgustavo.openweather.currentWeather.presentation.ui.CurrentWeatherFragment"
+            android:label="Weather">
+        <action
+                android:id="@+id/action_currentWeatherFragment_to_addNewCityDialog"
+                app:destination="@id/addNewCityDialog"/>
+        <action
+                android:id="@+id/action_currentWeatherFragment_to_detailsFragment"
+                app:destination="@id/detailsFragment"/>
+    </fragment>
+    <dialog
+            android:id="@+id/addNewCityDialog"
+            android:name="com.pgustavo.openweather.currentWeather.presentation.ui.AddNewCityDialog"
+            android:label="AddNewCityDialog">
+        <action
+                android:id="@+id/action_addNewCityDialog_to_currentWeatherFragment"
+                app:destination="@id/currentWeatherFragment"/>
+    </dialog>
+    <fragment
+            android:id="@+id/detailsFragment"
+            android:name="com.pgustavo.openweather.forecast.presentation.ui.DetailsFragment"
+            android:label="Details">
+        <argument
+                android:name="currentWeather"
+                app:argType="com.pgustavo.openweather.currentWeather.data.ui.CurrentWeatherUI"
+                app:nullable="true"
+                android:defaultValue="@null"/>
+    </fragment>
+</navigation>
