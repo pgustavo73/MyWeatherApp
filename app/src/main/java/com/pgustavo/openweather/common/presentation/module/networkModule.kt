@@ -35,7 +35,7 @@ fun provideInterceptor(): Interceptor {
         val url = chain.request()
             .url()
             .newBuilder()
-            .addQueryParameter("appid", "6f9d5ce943bd0d390d57ffdd19e18a4c")
+            .addQueryParameter("appid", "#########################")
             .addQueryParameter("units", "metric")
             .build()
         val request = chain.request()
